@@ -6,9 +6,9 @@ const runWeb = require('./src/run/web')
 
 /**
  * Get current version
-
  */
 function getVersion() {
+  
   return require('./package.json').version
 }
 
